@@ -3,8 +3,8 @@ package com.driver;
 public class Main
 {
     public static void main(String[] args) {
-        B b=new B();
-        System.out.println(b.meth());
+        B method=new B();
+        System.out.println(method.meth());
     }
   public static class A{
         public  String meth()
